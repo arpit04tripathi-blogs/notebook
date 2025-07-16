@@ -1,8 +1,8 @@
-# jekyll-template
+# notebook
 This repo is a template to create new repository based on jekyll for github pages
 
 **table of contents**
-- [jekyll-template](#jekyll-template)
+- [notebook](#notebook)
 - [Getting started](#getting-started)
 - [Running on local](#running-on-local)
 - [Troubleshooting](#troubleshooting)
