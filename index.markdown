@@ -8,7 +8,7 @@ nav_order: -1
 
 Home Page
 
-{{ site.github }}
+# Contributors
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
