@@ -9,14 +9,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+# Build settings
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
 # Set a path/url to a logo that will be displayed instead of the title
 logo: https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-2000.jpg?auto=webp&quality=75&width=980&dpr=2
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-1996.jpg?auto=webp&quality=75&width=980&dpr=2
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+# Color scheme supports "light" (default) and "dark"
+# color_scheme: dark
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -27,16 +34,18 @@ nav_enabled: true
 mermaid:
   version: "11.9.0"
 
+# Aux links for the upper right navigation
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/just-the-docs/just-the-docs"
 
+# External navigation links
+nav_external_links:
+  - title: JTD on GitHub
+    url: https://github.com/just-the-docs/just-the-docs
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
 
-# Build settings
-# theme: minima
-remote_theme: just-the-docs/just-the-docs
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -61,3 +70,24 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  arpit:
+    title: Custom Callout
+    color: pink
+    opacity: 0.3
+
+collections:
+  src: # Define a collection named "src", its documents reside in the "_src" directory
+    output: true
+# Define which collections are used in just-the-docs
+just_the_docs:
+  collections:
+    src: # Reference the "tests" collection
+      name: Tests # Give the collection a name
+      nav_exclude: false
+      nav_fold: true
+
