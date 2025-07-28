@@ -1,9 +1,9 @@
 title: Notebook
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. 
+  It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 baseurl: "/notebook" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -25,20 +25,22 @@ favicon_ico: https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-20
 # Color scheme supports "light" (default) and "dark"
 # color_scheme: dark
 
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
-# Enable or disable the side/mobile menu globally
-# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
-nav_enabled: true
 # Version of mermaid library - Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
 mermaid:
   version: "11.9.0"
 
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
     - "//github.com/just-the-docs/just-the-docs"
 
+
+# Enable or disable the side/mobile menu globally
+# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+nav_enabled: true
 # External navigation links
 nav_external_links:
   - title: JTD on GitHub
@@ -47,13 +49,10 @@ nav_external_links:
     opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
 
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
+# Exclude from processing: The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to the internal "default list".
 #
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
+# Excluded items can be processed by explicitly listing the directories or their entries' file path in the `include:` list.
 #
 # ignore files for creating _site
 exclude:
@@ -80,14 +79,28 @@ callouts:
     color: pink
     opacity: 0.3
 
+# Define the collections
+# example: collection with name "src" reside in the "_src" directory
 collections:
-  src: # Define a collection named "src", its documents reside in the "_src" directory
+  test:
+    output: true
+  src: 
+    output: true
+  posts:
     output: true
 # Define which collections are used in just-the-docs
 just_the_docs:
   collections:
-    src: # Reference the "tests" collection
-      name: Tests # Give the collection a name
+    test:
+      name: Tests
+      nav_exclude: false
+      nav_fold: true
+    src: 
+      name: Src  
+      nav_exclude: true
+      nav_fold: true
+    post: 
+      name: Posts 
       nav_exclude: false
       nav_fold: true
 
