@@ -2,7 +2,7 @@
 layout: page
 title: Src Test
 nav_order: 10
-permalink: /src/collection
+permalink: /src/
 ---
 
 This is src collection, 

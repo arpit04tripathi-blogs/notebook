@@ -2,6 +2,7 @@
 layout: page
 title: Mermaid Example
 nav_order: 12
+path: /jtd/mermaid
 ---
 
 # References

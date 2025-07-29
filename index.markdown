@@ -17,18 +17,3 @@ Home Page
   </li>
 {% endfor %}
 </ul>
-
-{: .warning }
-This is paragraph within a callout...  
-test lilne 2
-
-{: .arpit }
-This is paragraph within a callout...  
-test lilne 2
-
-
-> NOTE: This is a Blockquote
-> > Nested Blockquote
-> 
-> Back to main Quote
-
