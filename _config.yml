@@ -34,8 +34,8 @@ mermaid:
 aux_links_new_tab: true
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "Udemy":
+    - "https://www.udemy.com"
   "levels.fyi":
     - "https://www.levels.fyi/en-gb/t/software-engineer/locations/united-kingdom"
 
