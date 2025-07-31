@@ -5,6 +5,8 @@ nav_order: 10
 permalink: /src/
 ---
 
+[Back to Nav-1](../nav-1){: .btn .btn-outline }
+
 This is src collection, 
 
 Adsense on Jekyll blog
