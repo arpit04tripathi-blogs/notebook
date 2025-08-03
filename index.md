@@ -8,44 +8,46 @@ nav_order: -10
 - Basic - [HTML](html), [CSS](css), [Javascript](js), [SASS](sass)
 - CSS Frameworks - [Bootstrap](bootstrap)
 - Frameworks - [Vue.js](vue), [Angular](angular)
-- Testing - [Jest](jest), [Jest (official)](https://jestjs.io/){:target="\_blank"}
-- libraries - webpack, node js
+- Testing - [Jest](jest)
+- libraries - webpack, node.js
 
 📙 **Backend Development (Java Ecosystem)**
 
 - ☕ Java
 - Spring
 - Hibernate
-- Testing - JUnit, Cucumber
+- Testing - JUnit, Mockito, Cucumber
 - Libraries - Object Mapper, JSON/XML, Lombok, Logger (SLF4J), Feign
 - API Docs - Swagger
 
 🔁 **APIs & Microservices**
+- HTTP
 - Web Services
+- CORS
 - REST
 - Microservices
-- Swagger / OpenAPI
-- Kafka
-- CORS
-- HTTP
-- OWASP (Security)
+- API Docs - Swagger / OpenAPI
+- Messaging - Apache Kafka, RabbitMQ, SQS
+- Security - OWASP
 
 🛠️  **DevOps & CI/CD Tools**
 
 - [Git](git) - version control system
-- Gradle
-- Jenkins
-- Docker
-- Jenkins
+- Build Tool - Gradle, Maven
+- Automation - Jenkins, Ansible, Checf
+- Containerization - Docker
 - Puppet
 - Nginx
+- Container Orchestration - Kubernetes, Openshift (RedHat), Hasicorp Nomad, Docker Swarm, etc…
+- [16 Best Container Orchestration Tools and Services](https://devopscube.com/docker-container-clustering-tools/){:target=""_blank}
 
 ☁️ **Cloud and Platforms**
 - Cloud Fundamentals
 - AWS
-- Auth0 (Authentication)
+- Authentication - Auth0
 
 📊 **Monitoring & Observability**
+- ELK
 - Grafana
 - Metrics
 - Monitoring
