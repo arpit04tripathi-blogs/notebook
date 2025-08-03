@@ -20,8 +20,10 @@ plugins:
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-2000.jpg?auto=webp&quality=75&width=980&dpr=2
+# logo: /assets/logo/logo-arpit04tripathi.jpeg
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-1996.jpg?auto=webp&quality=75&width=980&dpr=2
+cdn: https://raw.githubusercontent.com/arpit04tripathi/cdn/main/notebook
 
 # color_scheme: dark # supports "light" (default) and "dark"
 
