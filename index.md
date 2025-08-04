@@ -13,8 +13,8 @@ nav_order: -10
 
 📙 **Backend Development (Java Ecosystem)**
 
-- ☕ Java
-- Spring
+- ☕ [Java](java/)
+- ☘️[Spring](spring/)
 - Hibernate
 - Testing - JUnit, Mockito, Cucumber
 - Libraries - Object Mapper, JSON/XML, Lombok, Logger (SLF4J), Feign
