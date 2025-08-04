@@ -69,11 +69,11 @@ nav_order: -10
 - Design Patterns
 
 🧠 **Computer Science Core**
-- Data Structures
-- Algorithms
-- Operating Systems (OS)
-- DBMS and SQL
-- Computer Networks
+- [Data Structures](ds)
+- [Algorithms](algo)
+- [Operating Systems (OS)](os)
+- [DBMS](dbms) and [SQL](sql)
+- [Computer Networks](networks)
 
 > Cross-linking posts via tags like `#spring`, `#auth`, `#monitoring`.
 
