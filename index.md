@@ -25,7 +25,7 @@ nav_order: -10
 - [WebServices](webservices)
 - [CORS](cors)
 - REST
-- Microservices
+- [Microservices](microservices)
 - API Docs - Swagger / OpenAPI
 - Messaging - Apache Kafka, RabbitMQ, SQS
 - Security - [OWASP](owasp)
@@ -43,6 +43,8 @@ nav_order: -10
 
 ☁️ **Cloud and Platforms**
 - Cloud Fundamentals
+- [Distributed Systems](distributed-systems)
+- [System Design](system-design)
 - AWS
 - Authentication - Auth0
 

@@ -51,6 +51,10 @@ nav_external_links:
     url: https://roadmap.sh/
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+  - title: Baeldung
+    url: https://www.baeldung.com/spring-tutorial
+    hide_icon: false
+    opens_in_new_tab: true
 
 
 # Exclude from processing: The following items will not be processed, by default.
