@@ -81,6 +81,11 @@ nav_order: -10
 - [Chrome Extn](chrome)
 - [Jekyll](jekyll)
 
+**Databases**
+- RDBMS - MySQL, Postgres, MSSQL
+- NoSQL - Mongo, Couchbase DB, Casandra, Elastisearch
+- Graph - Neo4j, ArangoDB
+
 > Cross-linking posts via tags like `#spring`, `#auth`, `#monitoring`.
 
 
