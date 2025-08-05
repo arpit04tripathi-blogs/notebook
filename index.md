@@ -16,8 +16,8 @@ nav_order: -10
 - ☕ [Java](java/)
 - ☘️ [Spring](spring/)
 - JPA - [Hibernate](hibernate/)
-- Testing - JUnit, Mockito, Cucumber
-- Libraries - Object Mapper, JSON/XML, Lombok, Logger (SLF4J), Feign
+- Testing - [JUnit](junit), Mockito, [Cucumber](cucumber)
+- Libraries - Object Mapper, [JSON](json)/[XML](xml), [Lombok](lombok), [Logger (SLF4J)](logger), Feign
 - API Docs - Swagger
 
 🔁 **APIs & Microservices**
@@ -27,7 +27,7 @@ nav_order: -10
 - REST
 - [Microservices](microservices)
 - API Docs - [Swagger](swagger) / OpenAPI
-- Messaging - Apache Kafka, RabbitMQ, SQS
+- Messaging - [Apache Kafka](kafka), RabbitMQ, SQS
 - Security - [OWASP](owasp)
 
 🛠️  **DevOps & CI/CD Tools**
