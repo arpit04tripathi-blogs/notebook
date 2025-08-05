@@ -21,14 +21,14 @@ nav_order: -10
 - API Docs - Swagger
 
 🔁 **APIs & Microservices**
-- HTTP
-- Web Services
-- CORS
+- [Http](http)
+- [WebServices](webservices)
+- [CORS](cors)
 - REST
 - Microservices
 - API Docs - Swagger / OpenAPI
 - Messaging - Apache Kafka, RabbitMQ, SQS
-- Security - OWASP
+- Security - [OWASP](owasp)
 
 🛠️  **DevOps & CI/CD Tools**
 
@@ -56,7 +56,6 @@ nav_order: -10
 
 📚 **Software Engineering Concepts**
 - Design Patterns
-- Clean Code
 - Software Architecture
 - Testing Strategies
 - Object-Oriented Principles
@@ -65,8 +64,8 @@ nav_order: -10
 
 📕 **Best Practices**
 
-- Clean Code
-- Design Patterns
+- [Clean Code](clean-code)
+- [Design Patterns](design-patterns)
 
 🧠 **Computer Science Core**
 - [Data Structures](ds)
@@ -74,6 +73,7 @@ nav_order: -10
 - [Operating Systems (OS)](os)
 - [DBMS](dbms) and [SQL](sql)
 - [Computer Networks](networks)
+- Programming Basics : [Programming](programming-basics), [Cheat Sheet](cheatsheet), [Puzzles](puzzles)
 
 > Cross-linking posts via tags like `#spring`, `#auth`, `#monitoring`.
 
