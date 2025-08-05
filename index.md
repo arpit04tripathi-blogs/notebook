@@ -14,8 +14,8 @@ nav_order: -10
 📙 **Backend Development (Java Ecosystem)**
 
 - ☕ [Java](java/)
-- ☘️[Spring](spring/)
-- Hibernate
+- ☘️ [Spring](spring/)
+- JPA - [Hibernate](hibernate/)
 - Testing - JUnit, Mockito, Cucumber
 - Libraries - Object Mapper, JSON/XML, Lombok, Logger (SLF4J), Feign
 - API Docs - Swagger
@@ -26,7 +26,7 @@ nav_order: -10
 - [CORS](cors)
 - REST
 - [Microservices](microservices)
-- API Docs - Swagger / OpenAPI
+- API Docs - [Swagger](swagger) / OpenAPI
 - Messaging - Apache Kafka, RabbitMQ, SQS
 - Security - [OWASP](owasp)
 
@@ -34,8 +34,8 @@ nav_order: -10
 
 - [Git](git) - version control system
 - Build Tool - Gradle, Maven
-- Automation - Jenkins, Ansible, Checf
-- Containerization - Docker
+- Automation - [Jenkins](jenkins), Ansible, Checf
+- Containers - [Containerization](containerization), [Docker](docker)
 - Puppet
 - Nginx
 - Container Orchestration - Kubernetes, Openshift (RedHat), Hasicorp Nomad, Docker Swarm, etc…
@@ -46,7 +46,7 @@ nav_order: -10
 - [Distributed Systems](distributed-systems)
 - [System Design](system-design)
 - AWS
-- Authentication - Auth0
+- Authentication - [Auth0](auth0)
 
 📊 **Monitoring & Observability**
 - ELK
@@ -76,6 +76,10 @@ nav_order: -10
 - [DBMS](dbms) and [SQL](sql)
 - [Computer Networks](networks)
 - Programming Basics : [Programming](programming-basics), [Cheat Sheet](cheatsheet), [Puzzles](puzzles)
+
+**Miscellaneous** 
+- [Chrome Extn](chrome)
+- [Jekyll](jekyll)
 
 > Cross-linking posts via tags like `#spring`, `#auth`, `#monitoring`.
 

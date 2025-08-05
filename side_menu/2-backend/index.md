@@ -5,6 +5,8 @@ nav_order: 2
 permalink: /backend/
 ---
 
+# Backend Development
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -13,7 +15,5 @@ permalink: /backend/
 1. TOC
 {:toc}
 </details>
-
-# Backend Development
 
 Backend development stack
